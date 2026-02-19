@@ -1,0 +1,82 @@
+name: ⭓ バグ報告 - Bug report ⭔
+description: バグや不具合を見つけたら教えてください！ - If you found a bug or something isn't working right, let us know!
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⭓ バグ報告フォーム - Bug report form ⭔
+        何か変だな？と思ったことがあれば、ぜひ教えてください！
+        どんな些細なことでも大丈夫です！ 🎵
+
+        If you notice anything that feels a bit weird, just let me know!
+        Even the tiniest things are totally welcome.
+
+        **注意**: すべての項目埋めなくても大丈夫です！わかる範囲で書いてください 🍀 - You don't have to fill out every section! Just share what you can.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: ⬟ バグの概要 - Bug summary ⬠
+      description: どんなバグが起きているか簡単に説明してください - Briefly describe the bug you encountered.
+      placeholder: |
+        例 :
+        - PRを開いたときにラベルが正しく付与されない
+        - コメントが投稿されずにActionが失敗する
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: ⬠ 再現手順 - Steps to reproduce ⬟
+      description: |
+        バグを再現するための手順を教えてください - Please describe the steps to reproduce the bug.
+      placeholder: |
+        1. PRを作成する
+        2. ラベルが付与されるのを待つ
+        3. ...
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ⭓ 期待する動作 - Expected behavior ⭔
+      description: 本来どう動くべきだと思いますか？ - What did you expect to happen?
+      placeholder: |
+        例 : PRにキャラクターのラベルが自動で付与される
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ⭔ 実際の動作 - Actual behavior ⭓
+      description: 実際にはどうなりましたか？ - What actually happened?
+      placeholder: |
+        例 : ラベルが付与されず、Actionがエラーで終了した
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: ⬟ ログ/スクリーンショット - Logs/Screenshots ⬠
+      description: |
+        エラーログやスクリーンショットがあれば貼り付けてください - If you have any error logs or screenshots, please share them here.
+      placeholder: Actions のログやエラーメッセージを貼り付けてください - Paste your Actions logs or error messages here.
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: ⬠ その他 - Anything else? ⬟
+      description: |
+        その他何かあれば自由に書いてください - If there's anything else you'd like to add, please share!
+
+        プロセカの雑談とかでも大丈夫です！ - Chatting about PJSK is also more than welcome!
+      placeholder: |
+        ミクといっちゃんが大大大好きです🎸
+
+        あなたの推しは誰ですか？
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Thank you for your report!💫**

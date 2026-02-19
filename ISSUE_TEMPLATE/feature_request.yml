@@ -1,0 +1,55 @@
+name: ⭓ 改善要望 - Improvement request ⭔
+description: 欲しい機能や改善点を提案してください！ - Please suggest any features or improvements you would like to see!
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⭓ 改善要望提案フォーム - Improvement request form ⭔
+        あなたの「こうだったらいいな！」という想いを聞かせてください！
+        どんなに些細なことでも大丈夫です！その一言が新しい着想につながるかもしれません 🎵
+
+        Got any ideas to make this even better? Let me know! No suggestion is too small. 
+        Your feedback could spark the next big improvement!
+
+        **注意**: すべての項目埋めなくても大丈夫です！思いついたことを自由に書いてください 🍀 - You don't have to fill out every section! Just share whatever is on your mind.
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: ⬟ 改善要望の概要 - Overview of the improvement request ⬠
+      description: 提案したい機能や改善点を簡単に説明してください - Give us a quick overview of your idea or improvement.
+      placeholder: |
+        例 :
+        - PRを開いたときに投稿されるコメントは1キャラにつき、1つではなく複数の中からランダムに選ばれるようにしてほしい
+        - ラベルに登場するキャラクターに偏りがある気がするのでもっと均等に登場させてほしい
+    validations:
+      required: true
+
+  - type: textarea
+    id: visuals
+    attributes:
+      label: ⬠ イメージ画像/参考情報 - Visuals/Reference information ⬟
+      description: |
+        もし具体的なイメージ（スクリーンショット、ラフ画、他サービスの例など）があれば、ここに貼り付けてください - If you have any screenshots, sketches, or reference links, feel free to drop them here.
+      placeholder: 画像をドラッグ&ドロップするか、URLを貼り付けてください - Drag and drop an image or paste a URL here.
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: ⭓ その他 - Anything else? ⭔
+      description: |
+        その他何かあれば自由に書いてください - If there's anything else you'd like to add, please share!
+
+        プロセカの雑談とかでも大丈夫です！ - Chatting about PJSK is also more than welcome!
+      placeholder: |
+        ミクといっちゃんが大大大好きです🎸
+
+        あなたの推しは誰ですか？
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Thank you for your support!💫**
