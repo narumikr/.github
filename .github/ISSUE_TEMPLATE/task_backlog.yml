@@ -48,7 +48,6 @@ body:
     attributes:
       label: ⭔ 備考 - Notes ⭓
       description: 作業に対して残しておきたい仕様などのメモがあれば記載してください！ - Leave any technical notes or specs here for future reference!
-
       placeholder: |
         忘れずにOpenAPI仕様を更新すること!!(￣△￣*)
 
