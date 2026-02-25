@@ -1,0 +1,58 @@
+name: ⭓ タスク/バックログ登録 - Task / Backlog ⭔
+description: タスクもしくはバックログ作業内容を登録してください! - Please describe the task or backlog item here!
+title: "[Task] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⭓ タスク / バックログ登録フォーム - Task / Backlog form ⭔
+        実装タスクやバックログアイテムを登録してください！
+        タスクの場合は可能な限り詳細に、背景や目的、実施内容を記載してください 🎵
+
+        Please register your implementation tasks or backlog items!
+        For tasks, try to be as detailed as possible—including the background, objectives, and implementation details would be awesome.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: ⬟ 概要 - Summary ⬠
+      description: 作業概要を簡潔に記載してください - Just a brief overview here.
+      placeholder: 楽曲リストを一括アップロードできるようにする
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: ⬠ 詳細 - Description ⬟
+      description: 実装内容、背景、目的、関連チケットやリンクなどを記載してください - Describe what to implement, why, and include links.
+      placeholder: |
+        - 背景:
+          ツールを用いて収集したデータをもとに、楽曲リストを一括でアップロードする手段がないため
+        - 実装内容:
+          楽曲リストをJSONファイルでアップロードできる機能を追加する
+        - 関連: (PRやIssueへのリンク)
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: ⭓ 受け入れ基準 - Acceptance criteria ⭔
+      description: 完了とみなすための条件を箇条書きで記述してください - Clear criteria for completion.
+      placeholder: |
+        - [ ] APIが200を返す
+        - [ ] 単体テストが追加され、全て通過する
+
+  - type: textarea
+    id: implementation_notes
+    attributes:
+      label: ⭔ 備考 - Notes ⭓
+      description: 作業に対して残しておきたい仕様などのメモがあれば記載してください！ - Leave any technical notes or specs here for future reference!
+      placeholder: |
+        忘れずにOpenAPI仕様を更新すること!!(￣△￣*)
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Let's make this awesome together!🎼**
