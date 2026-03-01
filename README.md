@@ -8,9 +8,9 @@
 
 ### 💫 **_What's Inside_** 💫![Leo/need-divider](https://capsule-render.vercel.app/api?type=rect&height=2&color=0:3367cc,100:f5f5f7)
 
-
 #### Issue テンプレート
 
+- アイデア出しフォーム
 - タスク/バックログ登録フォーム
 - 改善要望フォーム
 - バグ報告フォーム
