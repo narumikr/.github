@@ -1,5 +1,5 @@
-name: ⭓ アイデア - ideas ⭔
-description: 思い付いたアイデアを書き記してください！ - Write down any ideas that come to mind!
+name: ⭓ アイデア - Ideas ⭔
+description: 思いついたアイデアを書き記してください！ - Write down any ideas that come to mind!
 title: "[Idea] "
 labels: ["idea"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ## ⭓ アイデア投稿フォーム - Idea submission form ⭔
-        思い付いたアイデアを書き記してください！
+        思いついたアイデアを書き記してください！
         なんでもOK 🎵煮詰めるのは後でやりましょう！
 
         Jot down any ideas that come to mind!
