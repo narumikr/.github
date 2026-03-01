@@ -1,0 +1,53 @@
+name: ⭓ アイデア - Ideas ⭔
+description: 思いついたアイデアを書き記してください！ - Write down any ideas that come to mind!
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⭓ アイデア投稿フォーム - Idea submission form ⭔
+        思いついたアイデアを書き記してください！
+        なんでもOK 🎵煮詰めるのは後でやりましょう！
+
+        Jot down any ideas that come to mind!
+        Anything goes. We can refine them later!
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: ⬟ アイデアの概要 - Idea summary ⬠
+      description: アイデアの概要を簡単に説明してください - Briefly describe your idea.
+      placeholder: |
+        例 :
+        - エンドフィールドメニュー風のUIで自己紹介Webページ作る
+        - awslabのaidlcを手軽にプロジェクト導入できるスクリプト作成する
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: ⬠ 具体的なアイデア - Detailed idea ⬟
+      description: 具体的に決まっていることを書いてください - Please describe the details of your idea.
+      placeholder: |
+        例 : メニュー内に趣味項目を置き、アプリのアイコンを配置。クリックでプロフィール画像がモーダル表示される
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: ⭓ その他 - Anything else? ⭔
+      description: |
+        その他何かあれば自由に書いてください - If there's anything else you'd like to add, please share!
+
+        プロセカの雑談とかでも大丈夫です！ - Chatting about PJSK is also more than welcome!
+      placeholder: |
+        ミクといっちゃんが大大大好きです🎸
+
+        あなたの推しは誰ですか？
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Thank you for your idea submission!💫**
