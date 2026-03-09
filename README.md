@@ -8,6 +8,10 @@
 
 ### 💫 **_What's Inside_** 💫![Leo/need-divider](https://capsule-render.vercel.app/api?type=rect&height=2&color=0:3367cc,100:f5f5f7)
 
+#### PR テンプレート
+
+- .github/pull_request_template.md そのままか少し調整して使う
+
 #### Issue テンプレート
 
 - アイデア出しフォーム
