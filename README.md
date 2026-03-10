@@ -10,7 +10,7 @@
 
 #### PR テンプレート
 
-- .github/pull_request_template.md そのままか少し調整して使う
+- .github/pull_request_template.md そのまま、または少し調整して使う
 
 #### Issue テンプレート
 
