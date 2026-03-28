@@ -10,14 +10,14 @@
 
 #### PR テンプレート
 
-- .github/pull_request_template.md そのまま、または少し調整して使う
+- `.github/pull_request_template.md`: そのまま、または少し調整して使う
 
 #### Issue テンプレート
 
-- アイデア出しフォーム
-- タスク/バックログ登録フォーム
-- 改善要望フォーム
-- バグ報告フォーム
+- `.github/ISSUE_TEMPLATE/idea_submission.yml`: アイデア出しフォーム
+- `.github/ISSUE_TEMPLATE/task_backlog.yml`: タスク/バックログ登録フォーム
+- `.github/ISSUE_TEMPLATE/feature_request.yml`: 改善要望フォーム
+- `.github/ISSUE_TEMPLATE/bug_report.yml`: バグ報告フォーム
 
 #### GitHub Workflow
 

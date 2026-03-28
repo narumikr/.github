@@ -1,4 +1,4 @@
-#.github/workflow/prsk-dependabot.yml
+# .github/workflows/prsk-dependabot.yml
 name: prsk dependabot
 
 on:
