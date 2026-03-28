@@ -1,4 +1,4 @@
-#.github/workflow/prsk-labeling.yml
+# .github/workflows/prsk-labeling.yml
 name: PR prsk labeling
 
 on:
