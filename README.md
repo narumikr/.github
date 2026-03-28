@@ -2,7 +2,7 @@
 
 # **_GitHub Assets_**
 
-![welcome comment](https://readme-typing-svg.herokuapp.com?color=%23ff6699&width=500&lines=Hello+there!!+Thanks+for+stopping+by+🎵;Welcome+to+my+SEKAI+💫;Just+showing+big+love+for+prsk+💚;)
+![welcome comment](https://readme-typing-svg.herokuapp.com?color=%23ff6699&width=500&lines=Hello+there!!+Thanks+for+stopping+by+🎵;Welcome+to+my+SEKAI+💫;Just+showing+big+love+for+prsk+💚)
 
 リポジトリで使う共通のGitHub Assetsの用意
 
@@ -10,11 +10,16 @@
 
 #### PR テンプレート
 
-- .github/pull_request_template.md そのまま、または少し調整して使う
+- `.github/pull_request_template.md`: そのまま、または少し調整して使う
 
 #### Issue テンプレート
 
-- アイデア出しフォーム
-- タスク/バックログ登録フォーム
-- 改善要望フォーム
-- バグ報告フォーム
+- `.github/ISSUE_TEMPLATE/idea_submission.yml`: アイデア出しフォーム
+- `.github/ISSUE_TEMPLATE/task_backlog.yml`: タスク/バックログ登録フォーム
+- `.github/ISSUE_TEMPLATE/feature_request.yml`: 改善要望フォーム
+- `.github/ISSUE_TEMPLATE/bug_report.yml`: バグ報告フォーム
+
+#### GitHub Workflow
+
+- `.github/workflows/prsk-labeling.yml`: PRにプロセカキャラの応援コメントやラベルを付与するアクション
+- `.github/workflows/prsk-dependabot.yml`: DependabotのPRタイトルを編集し、プロセカキャラからのお知らせにするアクション
