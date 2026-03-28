@@ -1,0 +1,19 @@
+#.github/prsk-dependabot.yml
+name: prsk dependabot
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  prsk-notification-dependabot:
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rename dependabot PR title with prsk
+        uses: narumikr/link-sekai-actions/prsk-dependabot@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
