@@ -2,7 +2,7 @@
 
 # **_GitHub Assets_**
 
-![welcome comment](https://readme-typing-svg.herokuapp.com?color=%23ff6699&width=500&lines=Hello+there!!+Thanks+for+stopping+by+🎵;Welcome+to+my+SEKAI+💫;Just+showing+big+love+for+prsk+💚;)
+![welcome comment](https://readme-typing-svg.herokuapp.com?color=%23ff6699&width=500&lines=Hello+there!!+Thanks+for+stopping+by+🎵;Welcome+to+my+SEKAI+💫;Just+showing+big+love+for+prsk+💚)
 
 リポジトリで使う共通のGitHub Assetsの用意
 
@@ -18,3 +18,8 @@
 - タスク/バックログ登録フォーム
 - 改善要望フォーム
 - バグ報告フォーム
+
+#### GitHub Workflow
+
+- prsk-labeling: PRにプロセカキャラの応援コメントやラベルを付与するアクション
+- prsk-dependabot: DependabotのPRタイトルを編集し、プロセカキャラからのお知らせにするアクション
