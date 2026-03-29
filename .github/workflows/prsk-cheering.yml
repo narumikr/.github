@@ -7,12 +7,13 @@ on:
 
 permissions:
   issues: write
+  pull-requests: write
 
 jobs:
   set-prsk-label-and-comments:
     runs-on: ubuntu-latest
     steps:
-      - name: Set prsk label
+      - name: Set prsk label and comments
         uses: narumikr/link-sekai-actions/prsk-cheering@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
