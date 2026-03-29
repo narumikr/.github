@@ -21,5 +21,5 @@
 
 #### GitHub Workflow
 
-- `.github/workflows/prsk-labeling.yml`: PRにプロセカキャラの応援コメントやラベルを付与するアクション
+- `.github/workflows/prsk-cheering.yml`: PRにプロセカキャラの応援コメントやラベルを付与するアクション
 - `.github/workflows/prsk-dependabot.yml`: DependabotのPRタイトルを編集し、プロセカキャラからのお知らせにするアクション
