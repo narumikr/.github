@@ -1,4 +1,3 @@
-# .github/workflows/prsk-cheering.yml
 name: PR prsk cheering
 
 on:
@@ -16,4 +15,4 @@ jobs:
       - name: Set prsk label and comments
         uses: narumikr/link-sekai-actions/prsk-cheering@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
