@@ -33,9 +33,9 @@ description: "フロントエンド(Next.js/Reactなど)のコードレビュー
   - `app`フォルダ配下で状態管理や副作用のある処理を行う必要がある場合はClient Componentとしても良い。その際にはコメントを残すこと
 - 状態管理
   - コンポーネント内で完結する場合は`useState`を使用する
-  - ページを跨いでの状態管理が必要な場合は`Context API`や`zustand`を使用を検討する
+  - ページを跨いでの状態管理が必要な場合は`Context API`や`zustand`の使用を検討する
 - 命名規則
-  - **app router**: フォルダ名は`kebab-case`とし、ファイル名はNextJsのAppRouterファイルの規則に従う(page.tsx, layout.tsx)
+  - **app router**: フォルダ名は`kebab-case`とし、ファイル名はNext.JsのAppRouterファイルの規則に従う(page.tsx, layout.tsx)
   - **コンポーネント**: ファイル名は`PascalCase`とし、コンポーネント名はファイル名と同一にする
   - **utils**: ファイル名は`camelCase`とし、関数名も`camelCase`とする
   - **types**: ファイル名は`PascalCase`で`*.types.ts`とセマンティックネーミングで作成し、型名も`PascalCase`とする

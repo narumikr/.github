@@ -4,10 +4,6 @@
 
 テンプレートを一元管理し、新規プロジェクト時に再利用できるように準備します。
 
-構成
-- `instructions/`：テンプレート実例を置くサブディレクトリ。
-	- 例: [backend-code-review.instructions.md](copilot-template/instructions/backend-code-review.instructions.md#L1)
-
 ### テンプレート作成、利用手順
 
 1. `instructions/` に新しい `*.instructions.md` を作成します。
@@ -20,10 +16,6 @@
 ### テンプレート作成の基本ルール
 - ファイル名: `<purpose>.instructions.md` のように目的が分かる名前にします。
 - 保存場所: このディレクトリ直下の `instructions/` に配置します。
-
-### テンプレートの書き方
-
-公式のinstructionsファイルの書き方を確認するか [Creating path-specific custom instructions](https://docs.github.com/ja/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions?tool=vscode#creating-path-specific-custom-instructions) 、既存で配置されているファイルを参考にしてください
 
 ### テンプレートの書き方
 

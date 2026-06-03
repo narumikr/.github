@@ -27,6 +27,6 @@
 
 #### Copilot Instructions
 
-- `copilot-template/instructions/frontend-code-review.instructions/md`: フロントエンド(Next.js/React)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
+- `copilot-template/instructions/frontend-code-review.instructions.md`: フロントエンド(Next.js/React)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
 
-- `copilot-template/instructions/backend-code-review.instructions/md`: バックエンド(Python/TypeScript)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
+- `copilot-template/instructions/backend-code-review.instructions.md`: バックエンド(Python/TypeScript)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
