@@ -24,3 +24,9 @@
 - `.github/workflows/prsk-cheering.yml`: PRにプロセカキャラの応援コメントやラベルを付与するアクション
 - `.github/workflows/prsk-dependabot.yml`: DependabotのPRタイトルを編集し、プロセカキャラからのお知らせにするアクション
 - `.github/workflows/prsk-doctor-deps.yml`: 脆弱性/依存関係の調査結果をプロセカキャラがレポートにしてコミットしてくれるアクション
+
+#### Copilot Instructions
+
+- `copilot-template/instructions/frontend-code-review.instructions/md`: フロントエンド(Next.js/React)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
+
+- `copilot-template/instructions/backend-code-review.instructions/md`: バックエンド(Python/TypeScript)のコードレビューガイドラインのCopilot Instructionsファイルテンプレート
