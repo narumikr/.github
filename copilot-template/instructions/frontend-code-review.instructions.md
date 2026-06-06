@@ -25,9 +25,9 @@ description: "フロントエンド(Next.js/Reactなど)のコードレビュー
   - **dictionaries**: i18nの翻訳ファイル置き場
 - ディレクトリ間の参照制約
   - 同一ディレクトリ内の参照は許可
-  - app > featuresへの参照は許可
-  - app > componentsへの参照は許可
-  - features > componentsへの参照は許可
+  - appからfeaturesへの参照は許可
+  - appからcomponentsへの参照は許可
+  - featuresからcomponentsへの参照は許可
 - コンポーネント
   - `app`フォルダ配下は基本的にはServer Componentとする
   - `app`フォルダ配下で状態管理や副作用のある処理を行う必要がある場合はClient Componentとしても良い。その際にはコメントを残すこと
