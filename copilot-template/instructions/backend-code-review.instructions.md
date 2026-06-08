@@ -15,7 +15,7 @@ description: "バックエンド(FastAPI/NestJsなど)のコードレビュー�
 - アーキテクチャレイヤー
   - **レイヤー構成**: views, adapter, application, domain
     - 同一レイヤーへの参照を許可
-      -  ただし同一レイヤーでもsharedなど共通箇所から固有箇所への参照は許可しない(例: contexts/sharedからcontexts/{resource})
+      - ただし同一レイヤーでもsharedなど共通箇所から固有箇所への参照は許可しない(例: contexts/sharedからcontexts/{resource})
     - viewsからapplicationへの参照を許可
     - viewsからdomainへの参照を許可
     - adapterからapplicationへの参照を許可
